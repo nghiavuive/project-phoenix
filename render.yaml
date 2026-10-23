@@ -1,0 +1,9 @@
+# Khai báo sẵn cho Render (render.com): một dịch vụ web Node.js gói miễn phí.
+services:
+  - type: web
+    name: project-phoenix
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health

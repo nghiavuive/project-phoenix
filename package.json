@@ -1,0 +1,19 @@
+{
+  "name": "project-phoenix",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server/server.mjs",
+    "test": "node --test tests/core.test.mjs tests/net.test.mjs tests/maps.test.mjs tests/missions.test.mjs"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "three": "^0.128.0"
+  }
+}
